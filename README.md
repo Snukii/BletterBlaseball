@@ -1,7 +1,7 @@
 # BletterBlaseball
 A userstyle for Blaseball that takes advantage of all the space available on desktop and other small fixes.
 
-This is totally unoffical, has nothing to do with Blaseball or The Game Band and installing it is at your own risk.
+This is totally unofficial, has nothing to do with Blaseball or The Game Band and installing it is at your own risk.
 
 This is what the style looks like:
 
