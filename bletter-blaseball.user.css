@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name        Bletter Blaseball
-@version     1.0.2
+@version     1.1.0
 @namespace   BletterBlaseball
 @homepageURL https://github.com/Snukii/BletterBlaseball
 @updateURL   https://raw.githubusercontent.com/Snukii/BletterBlaseball/master/bletter-blaseball.user.css
@@ -195,6 +195,28 @@
     display: none;
   }
   /* END OF The Game Band CODE */
+
+  /* Better background color */
+  body {
+    background-color: #0b0b0b;
+  }
+
+  .Main {
+    background-color: #0b0b0b;
+  }
+
+  .Header-Logo {
+    background-color: #0b0b0b;
+  }
+
+  .Navigation {
+    background-color: #0b0b0b;
+  }
+
+  .Main-Body,
+  .Main-Body-Intro {
+    background-color: #0b0b0b;
+  }
 
   /*Make the site wider*/
   .Main {
