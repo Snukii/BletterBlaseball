@@ -1,3 +1,11 @@
+/* ==UserStyle==
+@name        Bletter Blaseball
+@version     4.0.33
+@homepageURL https://github.com/Snukii/BletterBlaseball
+@updateURL   https://raw.githubusercontent.com/Snukii/BletterBlaseball/master/bletter-blaseball.user.css
+@author      Snuki
+==/UserStyle== */
+
 @-moz-document domain("blaseball.com") {
   /* THE FOLLOWING IS ORIGINAL CODE FROM: The Game Band*/
   .GameWidget {
