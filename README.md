@@ -5,7 +5,7 @@ This is totally unofficial, has nothing to do with Blaseball or The Game Band an
 
 This is what the style looks like:
 
-<img src="https://i.imgur.com/zPNTHlF.png" width=500>
+<img src="https://i.imgur.com/JG6SYcf.png" width=500>
 
 ## Installation
 1. Install [Stylus for Firefox](https://addons.mozilla.org/en-US/firefox/addon/styl-us/), [Chrome](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne), [Opera](https://addons.opera.com/en-gb/extensions/details/stylus/) or [Cascadea for Safari](https://cascadea.app/).
