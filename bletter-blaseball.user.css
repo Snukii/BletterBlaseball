@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name        Bletter Blaseball
-@version     1.1.1
+@version     1.2.0
 @namespace   BletterBlaseball
 @homepageURL https://github.com/Snukii/BletterBlaseball
 @updateURL   https://raw.githubusercontent.com/Snukii/BletterBlaseball/master/bletter-blaseball.user.css
@@ -197,7 +197,7 @@
   /* END OF The Game Band CODE */
 
   /* Better background color */
-   body,
+  body,
   .Main,
   .Header-Logo,
   .Navigation,
@@ -214,6 +214,15 @@
   /*Fix large gap*/
   .GameWidget {
     margin-bottom: 10px;
+  }
+  /*Fix Decrees layout*/
+  .Decrees-Container {
+    width: 100%;
+  }
+    
+  /*Fix Book layout*/
+  .TheBook-All {
+    max-width: 80%;
   }
 
   /*Display games in a grid layout*/
@@ -235,6 +244,23 @@
   .Standings-Subleague-Container {
     grid-template-columns: 30% 30% !important;
   }
+    
+  /*Fix Shop layout*/
+  .Shop {
+    max-width: 95%;
+  }
+
+  .Shop-Item {
+    width: 100%;
+  }
+
+  .Shop-Grid {
+    display: grid;
+    grid-gap: 15px;
+    justify-content: center;
+    grid-template-columns: 22% 22% 22% 22%;
+  }
+
 
   /*Media queries for smaller than 1080p resolutions*/
   @media (max-width: 1500px) {
@@ -244,6 +270,10 @@
 
     .Standings-Subleague-Container {
       grid-template-columns: 45% 45% !important;
+    }
+      
+    .Shop-Grid {
+        grid-template-columns: 33% 33% 33%;
     }
   }
 
@@ -261,11 +291,19 @@
     .Standings-Subleague-Container {
       grid-template-columns: 85% !important;
     }
+    
+    .Shop-Grid {
+        grid-template-columns: 47% 47%;
+    }
   }
 
   @media (max-width: 600px) {
     .Main-Body > div > div > ul {
       grid-template-columns: 80%;
+    }
+    
+    .Shop-Grid {
+        grid-template-columns: 80%
     }
   }
 }
