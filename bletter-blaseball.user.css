@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name        Bletter Blaseball
-@version     1.3.0
+@version     1.4.0
 @namespace   BletterBlaseball
 @homepageURL https://github.com/Snukii/BletterBlaseball
 @updateURL   https://raw.githubusercontent.com/Snukii/BletterBlaseball/master/bletter-blaseball.user.css
@@ -231,6 +231,12 @@
     display: grid;
     grid-gap: 15px;
     grid-template-columns: 19% 19% 19% 19% 19%;
+  }
+    
+  /*Fix hall of flame layout*/ 
+  .HallOfFlame-Player-Container {
+    grid-template-columns: 100% !important;
+    max-width: 80%;
   }
 
   /*Fix Moist Talkers color*/
